@@ -38,3 +38,7 @@ using (var cache = ConnectionMultiplexer.Connect(connectionString))
 }
 ```
 
+## Code Examples
+
+See [this repository](https://github.com/rustd/RedisSamples/) for a number of [code samples](https://github.com/rustd/RedisSamples/tree/master/HelloWorld) including how [clustering](https://github.com/rustd/RedisSamples/blob/master/HelloWorld/Clustering.cs) changes how you interact with Redis. There are a number of examples here that prototype redis lists, tags, and connection options.
+
